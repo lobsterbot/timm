@@ -1,0 +1,63 @@
+.scrollersection2 { 
+	background: url(../images/2.jpg) 50% 0 no-repeat fixed; 
+	/*height: 1000px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px;*/
+    height: 100%; 
+    position: relative; 
+    /*box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
+}
+
+.welcome1 .content1 > div {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 2.875em 1.875em 1.875em;
+}
+/*Original*/
+.welcome1 .content1 > div {
+	padding-top: 5em;
+}
+
+.welcome1 .content1 h1 {
+	margin: 0;
+	padding: 1em 0;
+	font-size: 8em;
+	line-height: 1.5;
+	color: #333;
+}
+
+.welcome1 .content1 p {
+	margin: 0;
+	padding: 1em 0;
+	font-size: 2.2em;
+	line-height: 1.5;
+	color: #fff;
+}
+
+/*.welcome1 .content1 p:first-child:first-letter{
+    float:left;
+    font-size:200%;
+    margin-right:0.6em;
+}*/
+
+
+@media screen and (max-width: 55em) {
+
+	.welcome1 .content1 > div {
+		padding-top: 2.8em;
+	}
+
+	.welcome1 .content1 h1 {
+		font-size: 3.6em;
+	}
+
+	.welcome1 .content1 p {
+		padding: 2em 5%;
+		font-size: 1.08em;
+		text-align: center;
+		/*font-size: 90%;*/
+	}
+
+}

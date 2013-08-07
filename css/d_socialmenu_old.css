@@ -1,0 +1,104 @@
+.socialmenu {
+	background: #47a3da;
+	position: fixed;
+	z-index: 2000000
+}
+
+.socialmenu h3 {
+	color: #afdefa;
+	font-size: 1.5em;
+	/*padding: 20px;*/
+	margin: 0;
+	/*font-weight: 300;*/
+	/*background: #0d77b6;*/
+	background: #fff;
+	width: 130%;
+}
+
+.socialmenu a {
+	/*display: block;*/
+	clear: right;
+	color: #fff;
+	font-size: 1.1em;
+	/*font-weight: 300;*/
+}
+
+.socialmenu a:hover {
+	background: #258ecd;
+}
+
+.socialmenu a:active {
+	background: #afdefa;
+	color: #47a3da;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.socialmenu-vertical {
+	/*width: 240px;*/
+	width: 140px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.socialmenu-vertical a {
+	border-bottom: 1px solid #258ecd;
+	padding: 1em;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.socialmenu-left {
+	left: -140px;
+}
+
+.socialmenu-left.socialmenu-open {
+	left: 0px;
+}
+
+/* Transitions */
+
+.socialmenu {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.social-icon {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	cursor: pointer;
+	-webkit-font-smoothing: antialiased;
+}
+
+.connectshare {
+	float: right;
+}
+
+@media screen and (max-width: 55.1875em){
+
+	.socialmenu-horizontal {
+		font-size: 80%;
+		height: 110px;
+	}
+
+}
+
+@media screen and (max-height: 26.375em){
+
+	.socialmenu-vertical {
+		font-size: 70%;
+		width: 100px;
+	}
+
+	.socialmenu-left {
+		left: -100px;
+	}
+
+}

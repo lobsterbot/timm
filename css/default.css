@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'QuicksandBook';
+    src: url('fonts/Quicksand_Book-webfont.eot');
+    src: url('fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Quicksand_Book-webfont.woff') format('woff'),
+         url('fonts/Quicksand_Book-webfont.ttf') format('truetype'),
+         url('fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot');
+    src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.woff') format('woff'),
+        url('fonts/icomoon.ttf') format('truetype'),
+        url('fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tm-icon-lightbulb:before {
+    content: "\f0eb";
+}
+.tm-icon-comments-alt:before {
+    content: "\f0e6";
+}
+.tm-icon-book:before {
+    content: "\f02d";
+}
+.tm-icon-cogs:before {
+    content: "\f085";
+}
+.tm-icon-magic:before {
+    content: "\f0d0";
+}
+.tm-icon-desktop:before {
+    content: "\f108";
+}
+.tm-icon-mobile:before {
+    content: "\f10b";
+}
+.tm-icon-edit:before {
+    content: "\f044";
+}
+.tm-icon-wrench:before {
+    content: "\f0ad";
+}
+.tm-icon-remove-sign:before {
+    content: "\f057";
+}
+.tm-icon-smiley:before {
+    content: "\e000";
+}
+.tm-icon-sad:before {
+    content: "\e001";
+}
+.tm-icon-github:before {
+    content: "\e002";
+}
+.tm-icon-flickr:before {
+    content: "\e003";
+}
+.tm-icon-twitter:before {
+    content: "\e004";
+}
+.tm-icon-facebook:before {
+    content: "\e005";
+}
+.tm-icon-googleplus:before {
+    content: "\e006";
+}
+.tm-icon-pinterest:before {
+    content: "\e007";
+}
+.tm-icon-linkedin:before {
+    content: "\e008";
+}
+.tm-icon-dribbble:before {
+    content: "\e009";
+}
+
+.tm-icon-share:before {
+    content: "\e00a";
+}
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+body {
+    font-family: 'QuicksandBook', Calibri, Arial, sans-serif;
+    color: #fff;
+    background-color: #ff7038;
+    /*background-color: #D12610;*/
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(37,107,107,0.8);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
+
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+
+

@@ -1,0 +1,50 @@
+
+
+.welcome .content > div {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 2.875em 1.875em 1.875em;
+}
+/*Original*/
+.welcome .content > div {
+	padding-top: 1.2em;
+}
+
+.welcome .content h1 {
+	margin: 0;
+	padding: 1em 0;
+	font-size: 8em;
+	line-height: 1.5;
+	color: #333;
+}
+
+.welcome .content p {
+	margin: 0;
+	padding: 1em 0;
+	font-size: 2.2em;
+	line-height: 1.5;
+	color: #fff;
+}
+
+
+@media screen and (max-width: 55em) {
+
+	.welcome .content > div {
+		padding-top: 1.4em;
+		float: none;
+	}
+
+	.welcome .content h1 {
+		font-size: 3.6em;
+		text-align: center;
+	}
+
+	.welcome .content p {
+		padding: 2em 5%;
+		font-size: 1.08em;
+		text-align: center;
+		/*font-size: 90%;*/
+	}
+
+}
